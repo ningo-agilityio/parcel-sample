@@ -6,7 +6,7 @@
   "author": "Ni Ngo <ni.ngo@asnet.com.vn>",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel src/html/**/*.pug --open 'google chrome'",
+    "dev": "parcel src/html/**/*.pug",
     "build": "parcel build src/html/**/*.pug"
   },
   "devDependencies": {

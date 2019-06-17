@@ -1,0 +1,14 @@
+version: "2"
+services:
+  web:
+    build: .
+    image: parcelsample:latest
+    ports:
+      - "1234:1234"
+    volumes:
+      - .:/usr/src/app
+      - ./app/visuals:/app/
+      - ./.env:/app/.env
+      - /app/node_modules/
+
+    command: bash bin/start.sh

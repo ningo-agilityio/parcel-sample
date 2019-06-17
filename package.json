@@ -1,0 +1,18 @@
+{
+  "name": "parcel-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ningo-agilityio/parcel-sample.git",
+  "author": "Ni Ngo <ni.ngo@asnet.com.vn>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/html/**/*.pug --hmr-port 3000",
+    "build": "parcel build src/html/**/*.pug"
+  },
+  "devDependencies": {
+    "node-sass": "^4.12.0",
+    "parcel-bundler": "^1.12.3",
+    "pug": "^2.0.3",
+    "sass": "^1.21.0"
+  }
+}

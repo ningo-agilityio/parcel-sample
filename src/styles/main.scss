@@ -1,0 +1,15 @@
+@import './reset';
+@import './variables';
+
+.main-content {
+  background-color: $black;
+
+  &__heading {
+    color: $white;
+    font-size: 18px;
+  }
+
+  &__post-desc {
+    color: $red;
+  }
+}

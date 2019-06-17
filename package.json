@@ -6,7 +6,7 @@
   "author": "Ni Ngo <ni.ngo@asnet.com.vn>",
   "license": "MIT",
   "scripts": {
-    "dev": "parcel src/html/**/*.pug",
+    "dev": "parcel src/html/**/*.pug --hmr-port 3000",
     "build": "parcel build src/html/**/*.pug"
   },
   "devDependencies": {

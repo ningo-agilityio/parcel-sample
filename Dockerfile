@@ -14,5 +14,5 @@ COPY . .
 RUN yarn install
 
 CMD ["chmod", "+x", "/bin/start.sh"]
-EXPOSE 80
+EXPOSE 1234 3000
 CMD ["supervisord", "-n"]

@@ -8,7 +8,7 @@
 This supports auto compiles pug, scss files into index.html. Of source, it supports live reload.
 
 ### How to run:
-## Run without Docker
+#### Run without Docker
 1. Install public parcel:
 ```
 yarn global add parcel-bundler
@@ -21,7 +21,7 @@ yarn install
 
 3. Result: It will automatically open an Chrome tab with port `localhost:<your_port>`
 
-## Run with Docker
+#### Run with Docker
 1. Build image
 ```
 docker build -t parcelsample:latest .

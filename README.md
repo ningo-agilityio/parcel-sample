@@ -19,7 +19,12 @@ yarn global add parcel-bundler
 yarn install
 ```
 
-3. Result: It will automatically open an Chrome tab with port `localhost:<your_port>`
+3. Run develop mode
+```
+yarn dev
+```
+
+4. Result: It will automatically open an Chrome tab with port `localhost:<your_port>`
 
 #### Run with Docker
 1. Build image
